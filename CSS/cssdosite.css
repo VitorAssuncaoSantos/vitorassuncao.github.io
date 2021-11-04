@@ -1,0 +1,10 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: blanchedalmond;
+}
+header,ul{
+    list-style: none;
+}
+
