@@ -2,7 +2,6 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .titulo_da_lista {
-    text-align: center;
     font-weight: bold;
 }
 table, tr, td{
@@ -11,10 +10,6 @@ table, tr, td{
 }
 thead {
     border: solid black;
-}
-tbody{
-    padding-inline: 20px;
-    padding-bottom: 20px;
 }
 
 .locais {
@@ -26,6 +21,6 @@ tbody{
     color: #ff0000;
 }
 .objetos {
-    text-align: center;
+    text-align: justify;
     font-style: italic;
 }
