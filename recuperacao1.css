@@ -18,7 +18,7 @@ tbody{
 }
 
 .locais {
-    background-color: rgb(184, 184, 184);
+    background-color: rgb(160, 148, 148);
     text-align: justify;
     font-weight: bold;
 }
@@ -26,6 +26,6 @@ tbody{
     color: #ff0000;
 }
 .objetos {
-    text-align: justify;
+    text-align: center;
     font-style: italic;
 }
