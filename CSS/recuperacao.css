@@ -1,0 +1,18 @@
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+#titulo_principal{
+    background-color: rgb(37, 37, 36)
+}
+.titulo_secundario{
+    background-color: rgb(102, 103, 103);
+}
