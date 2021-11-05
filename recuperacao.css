@@ -2,4 +2,9 @@ table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
 }
-
+.titulo_principal {
+    background-color: rgb(39, 33, 33);
+}
+.titulo_secundario {
+    background-color: rgb(73, 67, 67);
+}
