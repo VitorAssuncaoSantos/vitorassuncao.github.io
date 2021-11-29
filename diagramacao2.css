@@ -1,0 +1,59 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+nav, ul, li{
+    display: inline;
+    padding: 1%;
+    width: 100%;
+    list-style: none;
+    text-align: center;
+
+}
+nav, a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-color: white;
+    padding:2%; 
+}
+body{
+    background-color: gray;   
+    margin:0; 
+}
+li{
+    border: 1px solid black;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: white;
+    padding: 25px;
+    float: left;
+    margin:auto;
+}
+.flex-container_2{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    background-color: white;
+    float: right;
+    padding: 3px;
+}
+.espacamento{
+    margin:auto;
+}
+
+.poligono 
+{
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+.avatar
+{
+    float: right;
+    border-radius: 50%; 
+}
+#principal{
+    padding: 1%,7%,7%,7%;
+}
