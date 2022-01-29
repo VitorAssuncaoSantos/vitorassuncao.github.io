@@ -1,0 +1,71 @@
+.jumbotron {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #e9ecef;
+    border-radius: 0.3rem;
+    background-image: url(../img/vitrine.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+.form-control {
+    width: 80%;
+    display: inline-block;
+}
+
+
+/*Hall da fama*/
+
+.titulo {
+    color: gray;
+    font-size: 250%;
+    padding-top: 100px;
+}
+
+.subtitulo {
+    color: gray;
+    font-size: 150%;
+    padding-top: 20px;
+}
+
+.gray-light {
+    background-color: lightgray;
+    display: flex;
+}
+
+.gray-light buttom {
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    padding: 10px;
+}
+
+.gray-light img {
+    padding-top: 40px;
+}
+
+
+/*Footer*/
+
+footer figcaption {
+    display: flex;
+    float: left;
+}
+
+@media(max-width:1023px) {
+    .gray-light {
+        justify-content: center;
+        display: block;
+        width: 100%;
+    }
+    .titulo {
+        font-size: 500%;
+    }
+    .gray-light img {
+        width: 100%;
+    }
+    .titulo .subtitulo button {
+        align-items: center;
+    }
+}
