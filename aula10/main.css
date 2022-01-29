@@ -5,17 +5,18 @@ azul-escuro: rgb(1, 17, 23);
 */
 
 * {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    box-sizing:border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
 }
+
 html {
-    margin:0;
+    margin: 0;
 }
 
 .top mark {
-    color: rgb(246,94,0);
+    color: rgb(246, 94, 0);
     text-transform: lowercase;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .top {
@@ -23,26 +24,27 @@ html {
     flex-direction: row;
 }
 
-section, .divisoria nav {
-    width:900px;
+section,
+.divisoria nav {
+    width: 900px;
     margin: auto;
 }
 
 .top figure {
-    position:relative;
-    width:500px;
+    position: relative;
+    width: 500px;
 }
 
 .top article {
-    width: 300px;  
+    width: 300px;
 }
 
 .top figcaption {
     position: absolute;
     top: 0;
     left: 200px;
-    background: rgb(13,31,41);
-    color: rgb(246,94,0);
+    background: rgb(13, 31, 41);
+    color: rgb(246, 94, 0);
     padding: 5px;
     font-size: 0.7em;
     font-weight: bold;
@@ -50,29 +52,32 @@ section, .divisoria nav {
 }
 
 .phone {
-    color: #fff;    
+    color: #fff;
 }
+
 .divisoria {
     width: 100%;
-    background: rgb(13,31,41);
+    background: rgb(13, 31, 41);
 }
 
 .divisoria ul {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     padding-left: 0;
     list-style: none;
 }
+
 .divisoria li {
-    padding:10px 20px; 
+    padding: 10px 20px;
 }
-.divisoria li:first-child, .divisoria li:hover {
-    background-color: rgb(246,94,0);
-    
+
+.divisoria li:first-child,
+.divisoria li:hover {
+    background-color: rgb(246, 94, 0);
 }
 
 .divisoria a {
-    text-decoration: none;  
+    text-decoration: none;
     color: #fff;
 }
 
@@ -91,23 +96,23 @@ main section {
     position: relative;
 }
 
-.box figcaption{
-    position:absolute;
-    bottom:-5px;
-    width:100%;
-    padding:5px 5px 15px;
+.box figcaption {
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    padding: 5px 5px 15px;
     text-align: center;
-    background: rgba(0,0,0,0.8); 
+    background: rgba(0, 0, 0, 0.8);
     color: #fff;
     clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 55% 75%, 50% 100%, 45% 75%, 0% 75%);
 }
 
 .box img {
-    width:inherit;
+    width: inherit;
 }
 
 .box p {
-    font-size:0.8em;   
+    font-size: 0.8em;
 }
 
 .box button {
@@ -119,39 +124,45 @@ main section {
     color: white;
     position: absolute;
     right: 0px;
-    top: 425px;    
+    top: 425px;
 }
 
 footer {
-    background-color: rgb(13,31,41);
+    background-color: rgb(13, 31, 41);
     color: white;
     display: flex;
-    flex-direction:row;
-    justify-content:center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 fieldset {
     border: none;
 }
 
-input, textarea {
+input,
+textarea {
     width: 300px;
     height: 40px;
 }
 
-input, textarea, table {
+input,
+textarea,
+table {
     background-color: rgb(1, 17, 23);
 }
+
 footer p {
     font-size: smaller;
     text-align: justify;
 }
+
 footer button {
-    background-color: rgb(246,94,0);
+    background-color: rgb(246, 94, 0);
     border: none;
     border-radius: 5px;
     color: white;
 }
+
 footer div:last-child {
     border: none;
 }
