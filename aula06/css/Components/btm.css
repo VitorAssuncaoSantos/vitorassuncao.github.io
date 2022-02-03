@@ -1,0 +1,89 @@
+#btm {
+    display: none;
+}
+
+
+/* Phone */
+
+@media (max-width:767px) {
+    #btm {
+        display: block;
+        color: #fff;
+        background: transparent;
+        border: none;
+        padding-left: 80%;
+        margin-top: 65px;
+        font-size: 1.25rem;
+    }
+    #search {
+        display: none;
+        margin-top: 1.25rem;
+        left: 80%;
+    }
+    #panel.active #search {
+        display: block;
+    }
+    header li {
+        margin-bottom: 2px;
+    }
+    header h1 {
+        text-align: center;
+        position: relative;
+        top: 80px;
+        font-size: 200%;
+        font-weight: lighter;
+    }
+    header p {
+        position: relative;
+        top: 100px;
+        text-align: center;
+        color: var(--gray);
+        font-size: 0.9em;
+    }
+    header a {
+        padding-left: 0px;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width:768px) and (max-width:1023px) {
+    #btm {
+        display: block;
+        color: #fff;
+        background: transparent;
+        border: none;
+        padding-left: 90%;
+        margin-top: 65px;
+        font-size: 1.25rem;
+    }
+    #search {
+        display: none;
+        margin-top: 1.25rem;
+        left: 90%;
+    }
+    #panel.active #search {
+        display: block;
+    }
+    header li {
+        margin-bottom: 2px;
+    }
+    header h1 {
+        text-align: center;
+        position: relative;
+        top: 3.75rem;
+        font-size: 3em;
+        font-weight: lighter;
+    }
+    header p {
+        position: relative;
+        top: 5rem;
+        text-align: center;
+        color: var(--gray);
+        font-size: 0.9em;
+    }
+    header a {
+        padding-left: 0px;
+    }
+}
