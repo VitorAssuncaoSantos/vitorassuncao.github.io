@@ -1,6 +1,6 @@
 @import url(./Utils/utils.css);
 header {
-    background-image: url(/images/banner.jpg);
+    background-image: url(/aula06/images/banner.jpg);
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
