@@ -1,0 +1,44 @@
+header {
+    background-color: var(--primary-bck);
+}
+
+header h1 {
+    display: inline-block;
+    margin: 15px 0;
+    padding:15px 20px;
+    border-right: 1px solid var(--secondary-font);
+    
+}
+header h1 a {
+    color: var(--primary-font);
+}
+
+header nav {
+    position: absolute;
+    top:10px;
+    right:30px;
+}
+
+header ul {
+    display:flex;
+    flex-direction: row;
+    width: 650px;
+    justify-content:space-around;
+    
+}
+
+header li {
+    background-color: var(--inactive-bck);
+    padding: 20px;
+    width: 140px;
+    text-align:center;
+}
+
+header li:first-child, header li:hover {
+    background-color: var(--detail-bck);
+    transition: background-color 1s linear;
+}
+
+header li:first-child a, header li:hover a {
+    color: var(--contrast-font);
+}

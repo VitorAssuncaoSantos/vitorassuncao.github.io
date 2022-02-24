@@ -1,0 +1,14 @@
+@import 'base/reset.css';
+@import 'base/typography.css';
+
+@import 'utils/variables.css';
+
+@import 'layout/diagram.css';
+@import 'layout/header.css';
+@import 'layout/main.css';
+@import 'layout/footer.css';
+
+
+body{ 
+    background-color: var(--main-bck);
+}

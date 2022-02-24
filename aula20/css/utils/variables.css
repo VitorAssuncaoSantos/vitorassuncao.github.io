@@ -1,0 +1,14 @@
+:root {
+    --main-bck: rgb(28, 136, 95);
+    --primary-bck: #fff;
+    --secondary-bck: rgb(42, 42, 42);
+    --detail-bck: rgb(216, 55, 33);
+    --inactive-bck: rgb(231, 231, 231);
+
+    --primary-font: rgb(24, 43, 45);
+    --secondary-font: rgb(57, 57, 57);
+    --contrast-font: #fff;
+    --contrast-font-transp: rgba(255, 255, 255, 0.7);
+
+    --inactive-font: rgb(88, 88, 88);
+}

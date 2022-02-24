@@ -1,0 +1,68 @@
+/* Base */
+
+@import './Base/reset.css';
+
+/* Layout */
+
+@import './Layout/header.css';
+@import './Layout/aside.css';
+
+/* Main */
+
+#principal {
+    background-color: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#principal:hover {
+    background-color: black;
+    color: write;
+}
+
+button {
+    background-color: none;
+    color: white;
+    border: 1px solid black;
+    border-radius: 12px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 70%;
+    border: 1px solid red;
+}
+
+main {
+    display: flex;
+    margin: 0 15px;
+}
+
+main img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+main section {
+    padding-right: 180px;
+    padding-top: 5px;
+}
+
+
+/*Extra-small*/
+
+col-xs-1 {
+    width: 8.3%;
+}
+
+col-xs-2 {
+    width: 0%;
+}
