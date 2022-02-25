@@ -9,7 +9,8 @@ azul-escuro: rgb(1, 17, 23);
     box-sizing: border-box;
 }
 
-html {
+html,
+body {
     margin: 0;
 }
 
@@ -58,6 +59,7 @@ section,
 .divisoria {
     width: 100%;
     background: rgb(13, 31, 41);
+    margin: 0%;
 }
 
 .divisoria ul {
@@ -81,18 +83,23 @@ section,
     color: #fff;
 }
 
-main section {
+main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .box {
     width: 270px;
+    border: 3px solid rgb(189, 189, 189);
 }
 
 .box figure {
     width: 100%;
-    margin-left: 0;
+    margin: 0;
     position: relative;
 }
 
@@ -116,31 +123,39 @@ main section {
 }
 
 .box button {
-    background-color: rgb(167, 105, 67);
+    background-color: rgb(168, 144, 66);
     border: none;
     border-radius: 10px;
     padding: 7px 11px;
     text-transform: uppercase;
     color: white;
-    position: absolute;
-    right: 0px;
-    top: 425px;
+    margin-top: auto;
+    margin-left: 150px;
 }
+
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Footer */
 
 footer {
     background-color: rgb(13, 31, 41);
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+    width: 100%;
 }
 
 fieldset {
     border: none;
+    padding: 0;
 }
 
-input,
-textarea {
+input {
     width: 300px;
     height: 40px;
 }
@@ -149,6 +164,13 @@ input,
 textarea,
 table {
     background-color: rgb(1, 17, 23);
+    color: #fff
+}
+
+textarea {
+    resize: none;
+    width: 300px;
+    height: 100px;
 }
 
 footer p {
@@ -171,5 +193,17 @@ footer div {
     width: 350px;
     box-sizing: border-box;
     margin: 20px;
-    border-right: 3px rgb(0, 0, 0) solid;
+}
+
+footer td {
+    padding: 10px;
+}
+
+::placeholder {
+    color: #fff;
+}
+
+#fornite {
+    width: 1px;
+    border: 2px solid black;
 }
