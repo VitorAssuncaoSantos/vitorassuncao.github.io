@@ -1,0 +1,19 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer hr {
+    margin: 1px;
+    border: 0.5px solid gray;
+    width: 100%;
+}
+
+footer h1 {
+    font-size: larger;
+}
+
+footer p {
+    margin-top: 5px;
+}

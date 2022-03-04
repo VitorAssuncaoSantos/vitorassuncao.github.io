@@ -6,6 +6,7 @@
 
 @import './Layout/header.css';
 @import './Layout/aside.css';
+@import './Layout/footer.css';
 
 /* Main */
 
@@ -25,35 +26,45 @@
     color: write;
 }
 
-button {
+
+/* button {
     background-color: none;
     color: white;
     border: 1px solid black;
     border-radius: 12px;
     text-align: center;
     text-decoration: none;
-}
+} */
 
-.teste {
+main section {
     display: flex;
     flex-direction: column;
     flex-basis: 70%;
-    border: 1px solid red;
+}
+
+#text {
+    max-width: 78%;
+    text-align: justify;
 }
 
 main {
     display: flex;
-    margin: 0 15px;
+    margin: 0 0 50px 15px;
 }
 
 main img {
-    max-width: 100%;
     object-fit: cover;
 }
 
 main section {
-    padding-right: 180px;
     padding-top: 5px;
+}
+
+#last-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
 }
 
 

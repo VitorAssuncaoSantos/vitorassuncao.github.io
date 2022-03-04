@@ -1,0 +1,28 @@
+/* BASE.CSS */
+
+@import './base/reset.css';
+
+/* LAYOUT.CSS */
+
+@import './layout/header.css';
+@import './layout/footer.css';
+
+/* ULTILS.CSS */
+
+@import './utils/ultilities.css';
+@import './utils/variables.css';
+
+/* MAIN.CSS*/
+
+main {
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+main h1 {
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+}

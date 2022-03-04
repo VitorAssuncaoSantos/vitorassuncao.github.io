@@ -1,0 +1,21 @@
+footer {
+    background-color: rgb(42, 52, 57);
+    margin-top: 30px;
+    display: flex;
+    height: 100px;
+    color: #fff;
+}
+
+.social-media {
+    width: 15px;
+    filter: invert(40%) sepia(81%) saturate(1867%) hue-rotate(165deg) brightness(99%) contrast(101%);
+}
+
+#esquerda {
+    margin-left: 15%;
+    flex-basis: 50%;
+}
+
+#direita {
+    flex-basis: 50%;
+}
