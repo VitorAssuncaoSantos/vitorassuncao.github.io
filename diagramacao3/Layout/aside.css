@@ -14,5 +14,22 @@ aside hr {
 }
 
 aside h3 {
-    padding: 10px;
+    padding-bottom: 10px;
+}
+
+aside h5 {
+    padding-bottom: 20px;
+    color: rgb(115, 106, 106);
+}
+
+aside figure {
+    display: flex;
+}
+
+aside figcaption {
+    padding-left: 20px;
+}
+
+aside figure {
+    padding-bottom: 20px;
 }
