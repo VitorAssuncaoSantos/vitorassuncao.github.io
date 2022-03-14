@@ -2,8 +2,10 @@ footer {
     background-color: rgb(42, 52, 57);
     margin-top: 30px;
     display: flex;
-    height: 100px;
+    height: 10%;
     color: #fff;
+    background-color: var(--principal-color);
+    padding-top: 30px;
 }
 
 .social-media {
@@ -18,4 +20,20 @@ footer {
 
 #direita {
     flex-basis: 50%;
+}
+
+#esquerda textarea {
+    padding: 10px;
+    resize: none;
+    border-radius: 5px;
+}
+
+#esquerda button {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
 }

@@ -7,7 +7,7 @@
 @import './layout/header.css';
 @import './layout/footer.css';
 
-/* ULTILS.CSS */
+/* UTILS.CSS */
 
 @import './utils/ultilities.css';
 @import './utils/variables.css';
@@ -25,4 +25,14 @@ main h1 {
     padding-bottom: 20px;
     text-align: center;
     font-size: 36px;
+}
+
+main hr {
+    border: 1px solid black;
+    margin: 15px 0;
+}
+
+main h4 {
+    padding: 15px 0;
+    font-size: x-large;
 }
