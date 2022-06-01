@@ -1,27 +1,27 @@
-const control=document.getElementById("type");
-const forms=document.getElementById("filter");
+const control = document.getElementById("type")
+const forms = document.getElementById("filter")
 
-const img = document.getElementById("cat");
+const img = document.getElementById("cat")
 
-const getFilter=()=> forms.value || "none";
-const getIntensity=()=>control.value || 0;
+const getFilter = () => forms.value || "none"
+const getIntensity = () => control.value || 0
 
-const GetMetric = effects=>{
+const GetMetric = effects => {
     switch (effects.value) {
-        case value:
-            
-            break;
-    
+        case "blur":
+            return "px"
+        case "hue-rotate":
+            return "deg"
         default:
-            break;
+            return "%";
     }
 }
 
-control.addEventListener("change", ()=> {
-    value = control.value;
-    img.style.filter=forms.value
-})
+const setFilter = () => {
+    const filter = getFilter
+    const valueIntensity = getIntensity() + GetMetric(filter)
+    img.style.filter = `${filter}+(${valueIntensity})`
+}
 
-forms.addEventListener("click", ()=>{
-    
-})
+control.document.addEventListener("click", setFilter)
+forms.document.addEventListener("click", setFilter)
