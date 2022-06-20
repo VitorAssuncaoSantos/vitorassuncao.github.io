@@ -3,7 +3,10 @@ const forms = document.getElementById("filter")
 
 const img = document.getElementById("cat")
 
-const getFilter = () => forms.value || "none"
+const getFilter = () => {
+    forms.value || "none"
+
+}
 const getIntensity = () => control.value || 0
 
 const GetMetric = effects => {

@@ -1,0 +1,9 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: hex(#94AE89);
+    color: hex(#D5FFD5);
+}

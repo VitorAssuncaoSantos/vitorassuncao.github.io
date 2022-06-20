@@ -6,16 +6,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laboratório de JavaScript - DOM - Números</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h3>Questão 01</h3>
-    <input type="number" id="firstNumber">
-    <input type="number" id="secondNumber">
-    <button type="submit" id="toSubmit">Envie aqui!!!
-    </button>
-    <p id="getValue"></p>
-
+    <div>
+        <h3>Questão 01</h3>
+        <p>Faça um programa que leia dois números e imprima a soma.</p>
+        <form id="question1">
+            <input type="number" id="firstNumber">
+            <input type="number" id="secondNumber">
+            <button>Envie aqui!!!</button>
+        </form>
+        <p id="getValue"></p>
+    </div>
+    <div>
+        <h3>Questão 02</h3>
+        <p>Faça um programa que leia dois números e indique qual dos dois é o maior.</p>
+        <form id="question2">
+            <input type="number" id="number1">
+            <input type="number" id="number2">
+            <button>Envie aqui!!!</button>
+            <p id="result"></p>
+        </form>
+    </div>
+    <div>
+        <h3>Questão 3</h3>
+        <p>Faça um programa que verifique se o número é primo.</p>
+        <form id="question3">
+            <input type="number" id="theNumber">
+            <button>Envie aqui!!!</button>
+            <p id="results"></p>
+        </form>
+    </div>
+    <div>
+        <h3>Questão 4</h3>
+        <p>Considerando os dois números passado representam a dimensão dos catetos de um triângulo retângulo, faça um programa que calcule o tamanho da hipotenusa.</p>
+        <form id="question4">
+            <label>Primeiro cateto</label>
+            <input type="number" id="firstSide">
+            <laber>Segundo cateto</laber>
+            <input type="number" id="secoundSide">
+            <button>Envie aqui!!!</button>
+            <p>Valor da hipotenusa:</p>
+            <p id="product"></p>
+        </form>
+    </div>
+    <div>
+        <h3>Questão 5</h3>
+        <p>Escreva um algoritmo para ler o salário mensal atual de um funcionário e o percentual de reajuste. Calcular e escrever o valor do novo salário.</p>
+        <form id="question5">
+            <input id="salary" type="number" placeholder="Salário">
+            <input id="correction" type="number" placeholder="Reajuste">
+            <button>Descubra agora!!!</button>
+            <p id="finalValue"></p>
+        </form>
+    </div>
 </body>
 <script src="main.js"></script>
 
