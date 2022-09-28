@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head lang="pt-br">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lab String, Numbers</title>
+    </head>
+    <body>
+        <fieldset>
+            <legent>Atividade Strings</legent>
+            <label>Pesquisar: 
+                <input id="search" type="text">
+            </label>
+            <button id="search_button">Pesquisar</button>
+        </fieldset>
+        <fieldset>
+            <label>Substituir: 
+                <input id="subs" type="text">
+            </label>
+            <button>Pesquisar</button>
+        </fieldset>
+        
+        <textarea id="input"></textarea><br>
+        <button id="input_button">Carregar</button>
+        
+        <h3>Estatísticas:</h3>
+        <p>
+            Palavras:<span id="numWords"></span>    
+            <br>
+            Letras: <span id="numLetters"></span>
+        </p>
+        <p id="result_search"></p>
+    </body>
+    <script src="main.js"></script>
+</html>
