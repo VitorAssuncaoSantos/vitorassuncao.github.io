@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /*Irá fazer uma repatição igual do padding, do conteúdo  e do margin*/
+}
+
+.calc {
+    border-radius: 5px;
+    background-color: #666;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.calc-display {
+    height: 125px;
+    width: 395px;
+    color: white;
+    font-size: 6em;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    margin: 1px;
+    text-align: right;
+}
+
+button {
+    width: 95px;
+    height: 70px;
+    font-size: 2rem;
+    margin: 2px;
+    border: none;
+}
+
+.calc-numbers .row:first-child {
+    background-color: #777;
+}
+
+.calc-keyboard {
+    display: flex;
+    flex-direction: row;
+}
+
+.calc-numbers .row {
+    display: flex;
+    flex-direction: row;
+}
+
+.key-dbl {
+    width: 194px;
+}
+
+.calc-operators button {
+    background-color: orange;
+}
