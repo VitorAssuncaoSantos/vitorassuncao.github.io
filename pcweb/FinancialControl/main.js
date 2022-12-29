@@ -38,7 +38,7 @@ const addTransactionIntoDOM = ({ amount, name, id }) => {
     $li.classList.add(CSSClass);
     $li.innerHTML = `${name}
     <span>${operator} R$ ${amountWithoutOperator}</span>
-    <button class="delete-btn" onClick = "remove${id})">x</button>`;
+    <button class="delete-btn" onClick = "removeTransaction(${id})">x</button>`;
     //The prepend method adds the new li to be the first child 
     $transactionsUl.prepend($li);
 }
