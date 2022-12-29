@@ -40,7 +40,7 @@ const addTransactionIntoDOM = ({ amount, name, id }) => {
     <span>${operator} R$ ${amountWithoutOperator}</span>
     <button class="delete-btn" onClick = "remove${id})">x</button>`;
     //The prepend method adds the new li to be the first child 
-    $Ul.prepend($li);
+    $transactionsUl.prepend($li);
 }
 const getExpenses = transactionsAmounts =>
     Math.abs(transactionsAmounts
