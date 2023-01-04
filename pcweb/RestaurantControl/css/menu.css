@@ -1,0 +1,96 @@
+header li,
+a {
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #24525A;
+}
+
+#enterprise_brand {
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #888af8;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-flex;
+    padding: 0 10px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #02055A;
+}
+
+main {
+    height: max-content;
+    background-color: rgb(245, 248, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    color: #02055A;
+    padding: 20px 0 0;
+}
+
+main ul {
+    font-weight: 500;
+    color: #02055A;
+    list-style: none;
+    display: flex;
+    padding: 0 15px;
+}
+
+main ul li {
+    padding: 15px;
+    cursor: pointer;
+}
+
+main ul li:first-child {
+    background-color: #b1b3f7;
+}
+
+#plates {
+    background-color: #b1b3f7;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px
+}
+
+#plates img {
+    height: 180px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+#plates div {
+    display: flex;
+}
+
+#informations {
+    display: flex;
+    flex-direction: column;
+}
+
+#informations button {
+    width: fit-content;
+    border-radius: 5px;
+}
