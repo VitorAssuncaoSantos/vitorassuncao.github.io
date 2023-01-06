@@ -5,6 +5,7 @@ const $ul = document.querySelector("#categories"); //This const references an HT
 let listOfPlates;
 let state = "A";
 
+
 fetch(url)
     .then(anwser => anwser.json())
     .then(plates => {
@@ -44,7 +45,7 @@ const createMenu = code => {
         <div id="informations">
                 <h3>${nameOfPlate}</h3>
                 <p>Details: ${plate.details}</p>
-                <p><b>${plate.price}</b></p>
+                <p><b>$${plate.price.substr(1,4)}</b></p>
                 <button>Order now!<button>
             </div>
         </div>`;
@@ -52,15 +53,12 @@ const createMenu = code => {
     addEventListinerToAllButtons();
 }
 
-const orderPlate = orderedPlate => {
-    console.log(orderedPlate);
-}
 
 const changeCategoryColor = textContentOfCategory => {
     document.querySelector(`#${state}`).style.backgroundColor = "transparent";
     state = textContentOfCategory;
     document.querySelector(`#${textContentOfCategory}`).style.backgroundColor = "#b1b3f7";
-}
+};
 
 
 $ul.addEventListener("click", e => {
@@ -69,12 +67,29 @@ $ul.addEventListener("click", e => {
     createMenu(idClicked);
     changeCategoryColor(idClicked);
 });
+
+const getCodeByDOM = event => event.target.parentElement.parentElement.firstElementChild.id;
+
+const generateID = () => Math.round(Math.random() * 1000);
+
+const allOrderedPlates = localStorage.getItem("orderedPlates") == null ? [] : JSON.parse(localStorage.getItem("orderedPlates"));
+
+const createOrderedPlates = identification =>
+    allOrderedPlates.push({
+        id: generateID(),
+        date: new Date(),
+        code: identification
+    });
+
+const addOrderedPlatesIntoLocalStorage = () => {
+    localStorage.setItem("orderedPlates", JSON.stringify(allOrderedPlates));
+}
+
 //Adding to all buttons a event listiner
 const addEventListinerToAllButtons = () => document.querySelectorAll("button").forEach(button => {
     button.addEventListener("click", e => {
-        const id = e.target.parentElement.parentElement.firstElementChild.id;
-        let plate = {
-
-        };
+        const id = getCodeByDOM(e);
+        createOrderedPlates(id);
+        addOrderedPlatesIntoLocalStorage();
     });
 });

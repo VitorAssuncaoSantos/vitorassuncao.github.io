@@ -1,42 +1,10 @@
-header li,
-a {
-    font-weight: 500;
-    font-size: 16px;
-    color: #edf0f1;
-    text-decoration: none;
-}
+/* Reset */
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
-    background-color: #24525A;
-}
+@import url(./reset/reset.css);
 
-#enterprise_brand {
-    font-size: 1.5rem;
-    cursor: pointer;
-    color: #888af8;
-}
+/* Layout */
 
-.nav_links {
-    list-style: none;
-}
-
-.nav_links li {
-    display: inline-flex;
-    padding: 0 10px;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-    color: #02055A;
-}
-
+@import url(./layout/navbar.css);
 main {
     height: max-content;
     background-color: rgb(245, 248, 255);
