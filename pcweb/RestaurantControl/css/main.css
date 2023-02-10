@@ -5,6 +5,7 @@
 /* Layout */
 
 @import url(./layout/navbar.css);
+
 main {
     background-color: rgb(245, 248, 255);
     color: #253DA1;
@@ -19,7 +20,14 @@ main img {
     width: 250px;
 }
 
-main div {
+main aside {
+    width: 50%;
+    gap: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
     width: 50%;
     gap: 50px;
     display: flex;

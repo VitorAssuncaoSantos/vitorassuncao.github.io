@@ -19,7 +19,6 @@ fetch(url)
     })
 
 
-const createImagesPath = plate => `${urlImages}${plate.photo}`;
 
 const cleanMenu = () => { $div.innerHTML = "" };
 
@@ -45,7 +44,7 @@ const createMenu = code => {
         <div id="informations">
                 <h3>${nameOfPlate}</h3>
                 <p>Details: ${plate.details}</p>
-                <p><b>$${plate.price.substr(1,4)}</b></p>
+                <p><b>$${plate.price.substr(1, 4)}</b></p>
                 <button>Order now!<button>
             </div>
         </div>`;
